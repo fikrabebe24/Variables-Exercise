@@ -14,10 +14,18 @@
 
             Console.WriteLine($"My dog's name is {dogName} and he is {dogAge} years old. His initial is {firstInitial}.");
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
-            Console.WriteLine($"He is {dogWeight}lbs and is {dogHeight} feet tall.");
-            Console.WriteLine("and it is frustratingly {isHungry. ToString(). ToLower()} he is always hungry!");
+            Console.WriteLine($"He is {dogWeight}lbs and is {dogHeight} feet tall. \n " +
+                $"and it is frustratingly {isHungry.ToString().ToLower()} he is always hungry!");
+
+            //string readLineExcersise = Console.ReadLine();
+
+            //Console.WriteLine("fifi21:");
+
+            //string userName = Console.ReadLine();
+
+            //Console.WriteLine("Username is:" + userName);
 
         }
     }
